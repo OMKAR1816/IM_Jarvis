@@ -6,7 +6,7 @@ import musicLibrary
 import requests
 from openai import OpenAI
 
-newsapi = "e9d3156c07msh490ce6f2ed442ap1a3eajsn1bf67e1a02b"
+newsapi = os.getenv("NEWSAPI_KEY")
 
 # Initialize TTS engine (optional - comment out if not working)
 # engine = pyttsx3.init()
